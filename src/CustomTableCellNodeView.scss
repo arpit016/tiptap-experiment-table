@@ -1,0 +1,42 @@
+.table-cell-dropdown-wrapper {
+  list-style-type: none;
+  background-color: white;
+  border-radius: 5px;
+  padding: 0px;
+  font-size: 15px;
+  li {
+    padding: 10px;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14.5px;
+    color: #5f5f75;
+    &:hover {
+      background-color: #f3f3fe;
+      border-radius: 5px;
+    }
+  }
+}
+.table-cell-dropdown-trigger {
+  cursor: pointer;
+  background: none;
+  border: none;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  padding: 0;
+  height: 28px;
+  width: 28px;
+}
+
+.editor-table-cell-dropdown-container {
+  .ant-popover-inner {
+    background: #ffffff;
+    border: 1px solid #e5e5f3;
+    box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.05);
+    border-radius: 5px;
+    .ant-popover-inner-content {
+      padding: 6px 3px;
+    }
+  }
+}
